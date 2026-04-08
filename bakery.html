@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Velvet Crumb</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+
+<body class="bg-[#0f0f10] text-gray-200">
+
+<!-- NAVBAR -->
+<header class="bg-[#0f0f10]/90 backdrop-blur border-b border-[#2a2a2a] fixed w-full z-50">
+
+<div class="flex justify-between items-center px-10 py-6">
+
+<!-- LOGO (UNCHANGED POSITION) -->
+<h1 class="text-5xl font-bold tracking-[0.3em] text-[#d4af37]">
+The Velvet Crumb
+</h1>
+
+<!-- NAV (CLOSER + BIGGER) -->
+<nav class="hidden md:flex gap-8 text-2xl font-medium ml-auto mr-10">
+
+<a href="#home" class="hover:text-[#d4af37] transition duration-300">
+Home
+</a>
+
+<a href="#gallery" class="hover:text-[#d4af37] transition duration-300">
+Gallery
+</a>
+
+<a href="#menu" class="hover:text-[#d4af37] transition duration-300">
+Menu
+</a>
+
+<a href="#bestsellers" class="hover:text-[#d4af37] transition duration-300">
+Best Sellers
+</a>
+
+</nav>
+
+<!-- BUTTON (BIGGER + CLOSE TO NAV) -->
+<a href="#order">
+
+<button class="
+text-[#d4af37]
+border border-[#d4af37]
+px-12 py-4
+text-2xl
+rounded-full
+font-semibold
+tracking-wide
+transition-all duration-300
+hover:bg-[#d4af37]
+hover:text-black
+hover:shadow-[0_0_25px_rgba(212,175,55,0.4)]
+hover:scale-105
+active:scale-95
+">
+Order Now
+</button>
+
+</a>
+
+</div>
+
+</header>
+<!-- HERO -->
+<section id="home" class="min-h-screen flex items-center justify-center text-center relative overflow-hidden">
+
+<!-- BACKGROUND IMAGE (ZOOMED PREMIUM FEEL) -->
+<img src="https://images.unsplash.com/photo-1559620192-032c4bc4674e"
+class="absolute w-full h-full object-cover scale-110 opacity-30">
+
+<!-- DARK VELVET OVERLAY -->
+<div class="absolute inset-0 bg-gradient-to-b from-[#0f0f10] via-[#4b1e2f]/50 to-[#0f0f10]"></div>
+
+<!-- CONTENT -->
+<div class="relative z-10 max-w-5xl px-6" data-aos="fade-up">
+
+<h1 class="text-7xl md:text-8xl font-bold mb-6 text-white leading-tight tracking-wide">
+Indulge in Velvet Luxury
+</h1>
+
+<p class="text-xl md:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto">
+Where every dessert melts like velvet on your taste buds — crafted for pure indulgence
+</p>
+
+<!-- BUTTONS -->
+<!-- BUTTONS -->
+<div class="flex flex-col md:flex-row gap-8 justify-center">
+
+<!-- EXPLORE -->
+<a href="#menu" class="
+border border-[#d4af37]
+text-[#d4af37]
+px-12 py-6
+rounded-full
+text-xl
+font-semibold
+tracking-wide
+transition-all duration-300
+hover:bg-[#d4af37]
+hover:text-black
+hover:scale-105
+hover:shadow-[0_0_25px_rgba(212,175,55,0.4)]
+">
+Explore Collection
+</a>
+
+<!-- ORDER NOW (NEW COLOR) -->
+<a href="#order" class="
+bg-[#2a1a14]
+text-[#f5e6c8]
+px-12 py-6
+rounded-full
+text-xl
+font-semibold
+tracking-wide
+transition-all duration-300
+hover:bg-[#d4af37]
+hover:text-black
+hover:scale-105
+hover:shadow-[0_0_25px_rgba(212,175,55,0.5)]
+">
+Order Now
+</a>
+
+</div>
+</div>
+
+</section>
+
+
+<!-- BESTSELLERS -->
+<section id="bestsellers" class="py-32 px-6 md:px-10 max-w-full mx-auto">
+
+<h2 class="text-5xl md:text-6xl font-bold text-center mb-20 text-white">
+Bestsellers
+</h2>
+
+<!-- BIG WIDE GRID -->
+<div class="grid md:grid-cols-2 xl:grid-cols-4 gap-10 px-6">
+
+<!-- CARD -->
+<div class="group bg-[#1a1a1a] border border-[#2a2a2a]
+rounded-3xl overflow-hidden
+hover:border-[#d4af37] transition-all duration-500
+hover:scale-[1.02]">
+
+<img src="https://plus.unsplash.com/premium_photo-1713447395823-2e0b40b75a89?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FrZXN8ZW58MHx8MHx8fDA%3D"
+class="w-full h-[360px] object-cover group-hover:scale-110 transition duration-500">
+
+<div class="p-8">
+<h3 class="text-3xl font-bold text-white">Red Velvet Signature</h3>
+<p class="text-gray-400 mt-3 text-lg">Soft velvet layers</p>
+<p class="text-[#d4af37] font-bold text-2xl mt-5">Rs. 2800</p>
+</div>
+
+</div>
+
+<!-- CARD -->
+<div class="group bg-[#1a1a1a] border border-[#2a2a2a]
+rounded-3xl overflow-hidden
+hover:border-[#d4af37] transition-all duration-500
+hover:scale-[1.02]">
+
+<img src="https://images.unsplash.com/photo-1667908775750-395e9b043396?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGNob2NsYXRlJTIwdHJ1ZmZsZSUyMGNha2VzfGVufDB8fDB8fHww"
+class="w-full h-[360px] object-cover group-hover:scale-110 transition duration-500">
+
+<div class="p-8">
+<h3 class="text-3xl font-bold text-white">Chocolate Truffle</h3>
+<p class="text-gray-400 mt-3 text-lg">Rich cocoa cream</p>
+<p class="text-[#d4af37] font-bold text-2xl mt-5">Rs. 3000</p>
+</div>
+
+</div>
+
+<!-- CARD -->
+<div class="group bg-[#1a1a1a] border border-[#2a2a2a]
+rounded-3xl overflow-hidden
+hover:border-[#d4af37] transition-all duration-500
+hover:scale-[1.02]">
+
+<img src="https://images.unsplash.com/photo-1603532648955-039310d9ed75"
+class="w-full h-[360px] object-cover group-hover:scale-110 transition duration-500">
+
+<div class="p-8">
+<h3 class="text-3xl font-bold text-white">Lotus Delight</h3>
+<p class="text-gray-400 mt-3 text-lg">Creamy caramel bliss</p>
+<p class="text-[#d4af37] font-bold text-2xl mt-5">Rs. 2600</p>
+</div>
+
+</div>
+
+<!-- CARD -->
+<div class="group bg-[#1a1a1a] border border-[#2a2a2a]
+rounded-3xl overflow-hidden
+hover:border-[#d4af37] transition-all duration-500
+hover:scale-[1.02]">
+
+<img src="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNha2VzfGVufDB8fDB8fHww"
+class="w-full h-[360px] object-cover group-hover:scale-110 transition duration-500">
+
+<div class="p-8">
+<h3 class="text-3xl font-bold text-white">Nutella Lava Cake</h3>
+<p class="text-gray-400 mt-3 text-lg">Warm molten center</p>
+<p class="text-[#d4af37] font-bold text-2xl mt-5">Rs. 3200</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="py-40 px-6 md:px-14 bg-gradient-to-b from-[#0f0f10] via-[#1a0f14] to-[#0f0f10]">
+
+<!-- TITLE -->
+<h2 class="text-5xl md:text-6xl font-bold text-center mb-28 text-white tracking-wide">
+Our Creations
+</h2>
+
+<!-- GALLERY GRID -->
+<div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 max-w-full mx-auto">
+
+<!-- IMAGE 1 -->
+<img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587"
+class="w-full h-[520px] object-cover rounded-3xl
+shadow-lg opacity-90 hover:opacity-100
+hover:scale-105 hover:shadow-[0_0_40px_rgba(212,175,55,0.15)]
+transition duration-500">
+
+<!-- IMAGE 2 -->
+<img src="https://images.unsplash.com/photo-1541783245831-57d6fb0926d3"
+class="w-full h-[520px] object-cover rounded-3xl
+shadow-lg opacity-90 hover:opacity-100
+hover:scale-105 hover:shadow-[0_0_40px_rgba(212,175,55,0.15)]
+transition duration-500">
+
+<!-- IMAGE 3 -->
+<img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec"
+class="w-full h-[520px] object-cover rounded-3xl
+shadow-lg opacity-90 hover:opacity-100
+hover:scale-105 hover:shadow-[0_0_40px_rgba(212,175,55,0.15)]
+transition duration-500">
+
+<!-- IMAGE 4 -->
+<img src="https://images.unsplash.com/photo-1562440499-64c9a111f713"
+class="w-full h-[520px] object-cover rounded-3xl
+shadow-lg opacity-90 hover:opacity-100
+hover:scale-105 hover:shadow-[0_0_40px_rgba(212,175,55,0.15)]
+transition duration-500">
+
+<!-- IMAGE 5 -->
+<img src="https://images.unsplash.com/photo-1559620192-032c4bc4674e"
+class="w-full h-[520px] object-cover rounded-3xl
+shadow-lg opacity-90 hover:opacity-100
+hover:scale-105 hover:shadow-[0_0_40px_rgba(212,175,55,0.15)]
+transition duration-500">
+
+<!-- IMAGE 6 -->
+<img src="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e"
+class="w-full h-[520px] object-cover rounded-3xl
+shadow-lg opacity-90 hover:opacity-100
+hover:scale-105 hover:shadow-[0_0_40px_rgba(212,175,55,0.15)]
+transition duration-500">
+
+<!-- IMAGE 7 -->
+<img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb"
+class="w-full h-[520px] object-cover rounded-3xl
+shadow-lg opacity-90 hover:opacity-100
+hover:scale-105 hover:shadow-[0_0_40px_rgba(212,175,55,0.15)]
+transition duration-500">
+
+<!-- IMAGE 8 -->
+<img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f"
+class="w-full h-[520px] object-cover rounded-3xl
+shadow-lg opacity-90 hover:opacity-100
+hover:scale-105 hover:shadow-[0_0_40px_rgba(212,175,55,0.15)]
+transition duration-500">
+
+</div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="bg-[#0f0f10] w-full">
+
+<h2 class="text-6xl md:text-7xl font-bold text-center text-white py-14 tracking-wide">
+Our Selection
+</h2>
+
+<div class="space-y-10 px-3 md:px-6 pb-20">
+
+<!-- ITEM -->
+<div class="flex flex-col lg:flex-row items-center rounded-3xl overflow-hidden bg-[#1a1a1a] border border-[#2a2a2a] shadow-xl h-[78vh] w-full">
+
+<img src="https://images.unsplash.com/photo-1559620192-032c4bc4674e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNha2VzfGVufDB8fDB8fHww"
+class="w-full lg:w-1/2 h-[40vh] lg:h-full object-cover">
+
+<div class="w-full lg:w-1/2 p-80 md:py-40">
+
+<h3 class="text-5xl font-bold text-white mb-4">Luxury Cakes</h3>
+
+<p class="text-gray-300 text-xl mb-6 leading-relaxed">
+Premium handcrafted cakes with rich layers and elegant finish.
+</p>
+
+<div class="text-gray-200 space-y-3 text-lg md:text-xl">
+<p>✨ Belgian chocolate & fresh cream</p>
+<p>🎂 Perfect for celebrations</p>
+<p>🧁 Soft layered sponge texture</p>
+</div>
+
+<p class="text-[#d4af37] text-3xl font-bold mt-8">
+Starting From Rs. 2500+
+</p>
+
+</div>
+</div>
+
+<!-- ITEM 2 -->
+<div class="flex flex-col lg:flex-row-reverse items-center rounded-3xl overflow-hidden bg-[#1a1a1a] border border-[#2a2a2a] shadow-xl h-[78vh] w-full">
+
+<img src="https://images.unsplash.com/photo-1603532648955-039310d9ed75"
+class="w-full lg:w-1/2 h-[40vh] lg:h-full object-cover">
+
+<div class="w-full lg:w-1/2 p-80 md:py-40">
+
+<h3 class="text-5xl font-bold text-white mb-4">Cupcakes</h3>
+
+<p class="text-gray-300 text-xl mb-6 leading-relaxed">
+Soft cupcakes with creamy frosting and light sweetness.
+</p>
+
+<div class="text-gray-200 space-y-3 text-lg md:text-xl">
+<p>✨ Vanilla, chocolate, red velvet</p>
+<p>🧁 Freshly baked daily</p>
+<p>🎉 Perfect for events</p>
+</div>
+
+<p class="text-[#d4af37] text-3xl font-bold mt-8">
+Startin From Rs. 800+
+</p>
+
+</div>
+</div>
+
+<!-- ITEM 3 -->
+<div class="flex flex-col lg:flex-row items-center rounded-3xl overflow-hidden bg-[#1a1a1a] border border-[#2a2a2a] shadow-xl h-[78vh] w-full">
+
+<img src="https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEJyb3duaWVzfGVufDB8fDB8fHww"
+class="w-full lg:w-1/2 h-[40vh] lg:h-full object-cover">
+
+<div class="w-full lg:w-1/2 p-80 md:py-40">
+
+<h3 class="text-5xl font-bold text-white mb-4">Brownies</h3>
+
+<p class="text-gray-300 text-xl mb-6 leading-relaxed">
+Rich fudgy brownies with deep chocolate flavor.
+</p>
+
+<div class="text-gray-200 space-y-3 text-lg md:text-xl">
+<p>✨ Dark cocoa premium blend</p>
+<p>🍫 Soft fudgy center</p>
+<p>☕ Best with coffee</p>
+</div>
+
+<p class="text-[#d4af37] text-3xl font-bold mt-8">
+Starting From Rs. 1200+
+</p>
+
+</div>
+</div>
+
+<!-- ITEM 4 -->
+<div class="flex flex-col lg:flex-row-reverse items-center rounded-3xl overflow-hidden bg-[#1a1a1a] border border-[#2a2a2a] shadow-xl h-[78vh] w-full">
+
+<img src="https://images.unsplash.com/photo-1516919549054-e08258825f80?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRvbnV0c3xlbnwwfHwwfHx8MA%3D%3D"
+class="w-full lg:w-1/2 h-[40vh] lg:h-full object-cover">
+
+<div class="w-full lg:w-1/2 p-80 md:py-40">
+
+<h3 class="text-5xl font-bold text-white mb-4">Donuts</h3>
+
+<p class="text-gray-300 text-xl mb-6 leading-relaxed">
+Soft glazed donuts with airy texture and sweet finish.
+</p>
+
+<div class="text-gray-200 space-y-3 text-lg md:text-xl">
+<p>✨ Filled & classic options</p>
+<p>🍩 Soft fluffy dough</p>
+<p>📦 Box packs available</p>
+</div>
+
+<p class="text-[#d4af37] text-3xl font-bold mt-8">
+Starting From Rs. 600+
+</p>
+
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- ORDER -->
+<section id="order" class="py-28 px-6 bg-gradient-to-b from-[#0f0f10] to-[#151515]">
+
+<h2 class="text-6xl font-bold text-center text-white mb-16 tracking-wide">
+Place Your Order
+</h2>
+
+<div class="max-w-7xl mx-auto grid lg:grid-cols-3 gap-10">
+
+<!-- FORM CARD -->
+<div class="lg:col-span-2 bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-10 shadow-2xl">
+
+<h3 class="text-3xl font-bold text-white mb-8">Order Details</h3>
+
+<div class="grid md:grid-cols-2 gap-6">
+<input type="text" placeholder="Full Name"
+class="p-4 rounded-xl bg-black/40 border border-white/10 text-white focus:outline-none focus:border-[#d4af37]">
+
+<input type="text" placeholder="Phone Number"
+class="p-4 rounded-xl bg-black/40 border border-white/10 text-white focus:outline-none focus:border-[#d4af37]">
+</div>
+
+<input type="text" placeholder="Delivery Address"
+class="p-4 rounded-xl w-full mt-6 bg-black/40 border border-white/10 text-white focus:outline-none focus:border-[#d4af37]">
+
+<select class="p-4 rounded-xl w-full mt-6 bg-black/40 border border-white/10 text-white">
+<option>Select Item</option>
+<option>Luxury Cake</option>
+<option>Cupcakes Box</option>
+<option>Chocolate Truffle</option>
+<option>Custom Cake</option>
+</select>
+
+<button class="mt-10 w-full py-4 rounded-2xl text-xl font-bold bg-[#d4af37] text-black hover:scale-[1.02] transition">
+Confirm Order
+</button>
+
+</div>
+
+<!-- SIDE PANEL -->
+<div class="space-y-6">
+
+<!-- STATUS CARD -->
+<div class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6">
+<h3 class="text-xl font-bold text-white mb-4">Order Status</h3>
+
+<div class="space-y-3 text-gray-300 text-sm">
+
+<div class="flex justify-between">
+<span>Order Placed</span><span class="text-green-400">✔</span>
+</div>
+
+<div class="flex justify-between">
+<span>Preparing</span><span class="text-yellow-400">⏳</span>
+</div>
+
+<div class="flex justify-between">
+<span>On the Way</span><span class="text-blue-400">🚴</span>
+</div>
+
+<div class="flex justify-between">
+<span>Delivered</span><span class="text-[#d4af37]">🏁</span>
+</div>
+
+</div>
+</div>
+
+<!-- RIDERS CARD -->
+<div class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6">
+<h3 class="text-xl font-bold text-white mb-4">Delivery Riders</h3>
+
+<div class="space-y-3 text-gray-300 text-sm">
+<p>🚴 Ahmed — Online</p>
+<p>🚴 Ali — Delivering</p>
+<p>🚴 Usman — Available</p>
+</div>
+</div>
+
+<!-- MINI STATS -->
+<div class="bg-white/5 backdrop-blur-xl border border-white/10 rounded-3xl p-6">
+<h3 class="text-xl font-bold text-white mb-4">Today’s Orders</h3>
+
+<div class="flex items-end gap-2 h-24">
+<div class="w-3 bg-[#d4af37] h-10 rounded"></div>
+<div class="w-3 bg-[#d4af37] h-16 rounded"></div>
+<div class="w-3 bg-[#d4af37] h-20 rounded"></div>
+<div class="w-3 bg-[#d4af37] h-14 rounded"></div>
+<div class="w-3 bg-[#d4af37] h-24 rounded"></div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</section>
+
+<!-- FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/923001234567" target="_blank"
+class="fixed bottom-6 left-6 z-50">
+
+<div class="w-24 h-24 bg-green-500 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition duration-300 hover:shadow-[0_0_20px_rgba(34,197,94,0.6)]">
+
+<!-- WhatsApp Icon (Font Awesome) -->
+<i class="fab fa-whatsapp text-white text-5xl"></i>
+
+</div>
+
+</a>
+
+<!-- FOOTER -->
+<footer class="bg-gradient-to-b from-[#0f0f10] to-[#1a1a1a] text-white pt-32 pb-16 border-t border-[#2a2a2a] relative overflow-hidden">
+
+<!-- reduced outer padding (was px-10) -->
+<div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-24 relative z-10">
+
+<!-- BRAND -->
+<div class="space-y-6">
+<h2 class="text-5xl font-bold text-[#d4af37]">The Velvet Crumb</h2>
+
+<p class="text-gray-400 leading-loose text-lg">
+Luxury baked every day 🍰  
+Crafted with love, delivered with perfection.
+</p>
+</div>
+
+<!-- QUICK LINKS -->
+<div class="space-y-6">
+<h3 class="text-2xl font-semibold">Quick Links</h3>
+
+<ul class="space-y-5 text-gray-400 text-lg">
+
+<li><a href="#home" class="hover:text-[#d4af37] transition">Home</a></li>
+<li><a href="#about" class="hover:text-[#d4af37] transition">About Us</a></li>
+<li><a href="#menu" class="hover:text-[#d4af37] transition">Menu</a></li>
+<li><a href="#order" class="hover:text-[#d4af37] transition">Order Now</a></li>
+<li><a href="#contact" class="hover:text-[#d4af37] transition">Contact</a></li>
+
+</ul>
+</div>
+
+<!-- CONTACT -->
+<div class="space-y-6">
+<h3 class="text-2xl font-semibold">Contact</h3>
+
+<div class="space-y-5 text-gray-400 text-lg leading-relaxed">
+
+<p>📍 Bakery Street, Sweet City</p>
+<p>📞 +92 300 1234567</p>
+<p>📧 order@velvetcrumb.com</p>
+
+</div>
+</div>
+
+<!-- SOCIAL + NEWSLETTER -->
+<div class="space-y-6">
+
+<h3 class="text-2xl font-semibold">Stay Sweet 🍰</h3>
+
+<!-- SOCIAL (more spacing) -->
+<div class="flex gap-10 text-3xl">
+<a href="#" class="hover:text-[#d4af37] transition"><i class="fab fa-facebook"></i></a>
+<a href="#" class="hover:text-[#d4af37] transition"><i class="fab fa-instagram"></i></a>
+<a href="#" class="hover:text-[#d4af37] transition"><i class="fab fa-whatsapp"></i></a>
+</div>
+
+<p class="text-gray-400 text-sm">
+Get sweet deals in your inbox 🎂
+</p>
+
+<!-- INPUT -->
+<div class="flex">
+<input type="email" placeholder="Enter email"
+class="w-full p-4 rounded-l-xl bg-black/40 border border-gray-700 text-white outline-none">
+
+<button class="px-6 bg-[#d4af37] text-black font-bold rounded-r-xl hover:scale-105 transition">
+Join
+</button>
+</div>
+
+</div>
+
+</div>
+
+<!-- BOTTOM BAR -->
+<div class="mt-24 border-t border-[#2a2a2a] pt-10 text-center">
+
+<p class="text-gray-500 text-base">
+© 2026 <span class="text-[#d4af37] font-semibold">The Velvet Crumb</span> — All Rights Reserved
+</p>
+
+</div>
+
+</footer>
+<script>
+AOS.init();
+</script>
+
+</body>
+</html>
